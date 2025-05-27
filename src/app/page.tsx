@@ -124,10 +124,10 @@ export default function Home() {
             horizontal="start"
             paddingLeft="12"
           >
+            <a href="https://intra-africa-journal-hub.vercel.app" style={{ textDecoration: 'none' }}>
             <Button
               id="submit-manuscript"
               data-border="rounded"
-              href="https://intra-africa-journal-hub.vercel.app"
               variant="primary"
               size="m"
               arrowIcon
