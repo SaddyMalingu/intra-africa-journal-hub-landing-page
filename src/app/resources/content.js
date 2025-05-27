@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      IFrom Africa to the World.
+      From Africa to the World.
     </>
   ),
 };
