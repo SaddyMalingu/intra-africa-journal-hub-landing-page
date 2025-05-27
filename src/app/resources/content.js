@@ -18,8 +18,7 @@ const newsletter = {
   title: <>Subscribe to Our Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Let us Guide you in Your Path to Becoming a Fully Accredited and Published Academic Researcher.
     </>
   ),
 };
@@ -89,9 +88,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Intra-Africa Journal Hub Ushers in a New , and Vibrant Impact for Academic Researchers and Industry Leaders across Africa.
       </>
     ),
   },
