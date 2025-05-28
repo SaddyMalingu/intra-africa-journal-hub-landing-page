@@ -6,11 +6,11 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Research Publication",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
   location: "Africa/Nairobi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Swahili"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -88,13 +88,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Intra-Africa Journal Hub Ushers in a New , and Vibrant Impact for Academic Researchers and Industry Leaders across Africa.
+        Intra-Africa Journal Hub advances scholarly communication by providing a high quality accessible publishing platform by upholding academic excellence, innovation, and quality.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Published Works",
     experiences: [
       {
         company: "FLY",
@@ -114,7 +114,7 @@ const about = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "Intra-Africa Journal Hub Project",
             width: 16,
             height: 9,
           },
@@ -123,7 +123,7 @@ const about = {
       {
         company: "Creativ3",
         timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        role: "Lead Publisher",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -143,7 +143,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University of Nairobi",
         description: <>Studied software engineering.</>,
       },
       {
@@ -203,7 +203,7 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
+  label: "Published Works",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
@@ -212,7 +212,7 @@ const work = {
 
 const gallery = {
   path: "/gallery",
-  label: "Gallery",
+  label: "Publication Fees",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
