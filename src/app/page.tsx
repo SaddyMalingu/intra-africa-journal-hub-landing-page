@@ -134,6 +134,7 @@ export default function Home() {
             >
               Submit Manuscript
             </Button>
+            </a>
           </RevealFx>
         </Column>
       </Column>
