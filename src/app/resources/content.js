@@ -97,9 +97,11 @@ const about = {
     title: "Meet Our Published Authors",
     experiences: [
       {
-        company: "Beyond Chains: The Tobosoric Economic Revolution, THE TOBOSORIC THEORY ",
+        company: "Kennedy Toboso Alaly ",
         timeframe: "2023",
-        role: "Authored by Kennedy Toboso Alaly",
+        role: "M.r Alaly is an accredited CPA and healthcare consultant based in Nairobi, Kenya. He has contributed a huge deal in 
+                the present literature on Economic Empowerment in Kenya, Public Health Affairs, and Infrastructural Development. 
+                Below are some of his published works.",
         achievements: [
           <>
             Beyond Chains The Tobosoric Economic Revolution THE TOBOSORIC THEORY.
@@ -142,9 +144,10 @@ const about = {
         ],
       },
       {
-        company: "The Nursing Metaparadigm Theory",
+        company: "D.r Vivy",
         timeframe: "2025",
-        role: "Vivy",
+        role: "Vivy, PhD, is a seasoned educator in the business sector. Apart from impacting lives across the entire continent, this 
+                phenomenal academician has invested, heavily, in unearthing major realities in the business side of healthcare.",
         achievements: [
           <>
             Development of a pharmaceutical design system that unifies brand access across the health sector, improving
