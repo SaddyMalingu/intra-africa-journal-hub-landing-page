@@ -94,20 +94,41 @@ const about = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Published Works",
+    title: "Meet Our Published Authors",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Beyond Chains: The Tobosoric Economic Revolution, THE TOBOSORIC THEORY ",
+        timeframe: "2023",
+        role: "Authored by Kennedy Toboso Alaly",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Beyond Chains The Tobosoric Economic Revolution THE TOBOSORIC THEORY.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Alcoholism: Would the Kenya Government be Intoxicating its people, through the Minimum Unit Packaging 
+            of Spirits? A Research Report.
+          </>,
+          <>
+            Market Survey Report for the African Divine Church, CCSCCL Project In Tambua Ward, 
+            North Maragoli, And Wodanga Wards, Vihiga County, Kenya.
+          </>,
+          <>
+            AN EXAMINATION OF THE GROWTH AND PERFORMANCE OF LIONS CAFÉ IN LANGA LANGA, NAKURU COUNTY, KENYA.
+          </>,
+          <>
+            CONTRIBUTION OF COLLECTIVE ACTION STRATEGY ON ENHANCING THE SOCIO-ECONOMIC STATUS OF YOUNG WOMEN 
+            SMALLHOLDER FARMERS FINANCED BY JIINUE HOLDINGS LTD IN MBITA DISTRICT, KENYA - PROPOSAL.
+          </>,
+          <>
+            THE PROFILE OF LOCAL COMMUNITIES AND HOUSEHOLDS IN MBITA AND SUBA DISTRICTS IN KENYA.
+          </>,
+          <>
+            SELECTED SCHOOL BASED ISSUES THAT INFLUENCE TEACHER PERFORMANCE IN PUBLIC PRIMARY SCHOOLS IN NAKURU 
+            TOWN, NAKURU COUNTY, KENYA.
+          </>,
+          <>
+            SELECTED SCHOOL BASED ISSUES THAT INFLUENCE TEACHER PERFORMANCE IN PUBLIC PRIMARY SCHOOLS IN NAKURU 
+            TOWN, NAKURU COUNTY, KENYA.
           </>,
         ],
         images: [
@@ -121,43 +142,51 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Publisher",
+        company: "The Nursing Metaparadigm Theory",
+        timeframe: "2025",
+        role: "Vivy",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
+            Development of a pharmaceutical design system that unifies brand access across the health sector, improving
             design consistency by 40%.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
+            Led a cross-functional team to launch a new clinical product line, contributing to a 15% increase
             in overall company revenue.
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Intra-Africa Journal Hub Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Affiliated Institutions",
     institutions: [
       {
-        name: "University of Nairobi",
-        description: <>Studied software engineering.</>,
+        name: "Intra Africa Research Center LTD.",
+        description: <>Africa's trusted scientific and market research company.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Alphadome 3.0",
+        description: <>Africa's leading AI-Blockchain Network for B2B, B2C, and C2C Services.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Previous Volumes",
     skills: [
       {
-        title: "Figma",
+        title: "Launch Pad",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -176,8 +205,8 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Exploration of the Role of AI and Blockchain Technology in the African Business Landscape",
+        description: <>Intra-Africa Research Center LTD.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -194,7 +223,7 @@ const about = {
 
 const blog = {
   path: "/blog",
-  label: "Blog",
+  label: "Free Articles",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
@@ -212,7 +241,7 @@ const work = {
 
 const gallery = {
   path: "/gallery",
-  label: "Publication Fees",
+  label: "Publication Guidelines",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
